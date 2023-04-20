@@ -1,14 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css/my.css">
-  <title>Try-Git</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBIX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter+Tight:ital,wght@1,500&family=Inter:wght@100;200;300;400;500;700;900&family=Manrope:wght@400;500;600;700;800&family=Montserrat&family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        section{ 
+            display: flex;
+            flex-direction: row;
+        }
+        .col{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            width: 1440px;
+            padding: 32px 26px 42px 32px;
+        }
+        .col-1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            width: 1440px;
+          }
+        .field {
+            width: 1440px;
+            height: 344px;
+            background-color: #1E1E1E;
+          }
+        .img, .img-1, .img-2, .img-3{
+            width: 410px;
+            height: 416px;
+            margin: 35px 46px 15px 0px;
+        }
+        .img-1{
+            width: 423.95px;
+            height: 426px;
+            z-index: 2;
+        }
+        .img-3{
+            width: 409.81px;
+            height: 418px;
+        }
+        .img-0{
+            position:absolute;
+            width: 219.58px;
+            height: 409px;
+            top: 76px;
+            left: 322px;
+            z-index: 1;
+        }
+    </style>
 </head>
-<body>
-  <h1>Hellou Git</h1>
-  <p>Lorem ipsum dolor sit amet.</p>
+<body> 
+    <div class="container">
+        <section>
+            <div class="col">
+                <div class="paragraph">
+                     SOUNDMETRIC
+                   </div>
+                <div class="icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>  
+                <div class="btn">
+                    <span >Check your file</span>
+                    <form action="#">
+                        <input class="btn_form-1" type="file" name="#" class="btn_form-1">
+                    </form>
+                </div>        
+            </div>
+        </section>
+        <!-- <div class="hidden">
+            <div class="loading">
+                <h3>Check notarized file</h3>
+                <div>
+                    <h4>Enter hash to validate your file</h4> 
+                    <div class="Loading_circle"></div>
+                </div>
+                <form action="#" name="#" method="post" enctype="multipart/form-data">
+                    <input type="text" name="#"placeholder="Paste hash ...">
+                    <br>
+                    <input type="button" value="Check your files">
+                </form>
+                <h3 style="margin-left: -26px;">Or</h3>
+                <div class="loading_box">
+                    <div class="loading_logo">
+                        <h4>Drag & drop files here <br> or</h4>
+                    </div>
+                    <div class="btn-6">
+                        <span>Open file browser</span>
+                        <form action="#">
+                            <input id="btn_file" type="file" name="file" value="">
+                        </form>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div> -->
+        <section>
+            <div class="col">
+                <div class="img-1 text_color_White " style="background-image: url(img/istockphoto-457755951-612x612\ 3.png);">
+                    <h1>Music Trends Analytics</h1>
+                    <p>Deep scrutiny of trends, genres, top artists and tracks via a unique Web3 method.</p>
+                    <p><a href="#">Get Review</a></p>
+                    <p>* 989 USD</p>
+                </div>
+                <div class="img-0" style="background-image: url(img/Layer\ 1\ copy\ 5.png);"></div>    
+                <div class="img text_color_White" style="background-image: url(img/retro-long-play-vinyl-record-260nw-179346809\ 2.png);">
+                    <h1>Copyrights Protection</h1>
+                    <p>The easiest way for creative professionals to protect their intellectual property.</p>
+                    <p><a href="#">Protect Copyrights</a></p>
+                    <p>*up to 3 notarizations for free</p>
+                </div>
+                <div class="img text_color_black" style="background-image: url(img/360_F_462345311_Hu7lEeGrrYryfnFnXvygRPT5xf1VJ3Xg-1\ 6.png);">
+                    <div>
+                        <h1>FAQ</h1>
+                    </div>
+                    <p>Read all popular questions and answers to them, become a part of our community.</p>
+                    <p class="text_color_White"><a href="#">Visit FAQ</a></p>
+                   
+                </div>
+                <div class="img-2" style="background-image: url(img/Subtract.png);">
+                    <h1>Unique analytics method</h1>
+                    <p>A variety of tools and techniques to analyze music, including data visualization, statistical analysis, machine learning, and natural language processing.</p>
+                </div>
+                <div class="img text_color_White" style="background-image: url(img/istockphoto-457755951-612x612\ 4.png);">
+                    <h1>Less paperwork</h1>
+                    <p class="height">An easy to use and streamlined process for uploading, verifying, and certifying any creative work, freeing you from the paper clutter.</p>
+                </div>
+                <div class="img-3" style="background-image: url(img/Background\ copy\ 5.png);">
+                    <h1>Security</h1>
+                    <p>The service employs Web3 technology, providing a 100% secure and immutable record of ownership and licensing terms, protecting the copyrights of your creations.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="col">
+                <div class="img-4 col">
+                    <div class="head">
+                        <p>Review</p>
+                        <!-- <br> -->
+                        <span>Music Trends Analytics</span>
+                    </div>
+                    <div class="block_left">
+                        <h4>Analytics gives you the tools</h4> 
+                        <p>
+                            to better understand customer behavior. It is applied in almost any field of activity. The music industry is no exception. 
+                            It relies on data to make decisions about what songs to release, and how to market and promote them.
+                        </p>
+                        <p>
+                            The main sources of analytical data are streaming platforms: Soundcloud, Beatport, Spotify and Apple Music.
+                            Among others, they track the frequency of listening to songs and their singers. This, in turn, allows us to identify popular songs and those gaining traction.
+                        </p>
+                    </div>
+                    <div class="block_right">
+                        <h4>In addition, </h4> 
+                        <p>
+                            streaming platforms provide data on the behavior of listeners: how long they listen to music and what songs they skip or repeat. Moreover, music trends also cover the analysis of lyrics, melody, chord progression and others.
+                        </p>
+                        <p>
+                            The tools and techniques that we use help us identify patterns and trends in the data. These insights are then applied to make informed decisions in the music industry.
+                        </p>
+                    </div>
+                    <div class="btn-2"><a href="#">Get Review</a></div>
+                </div>
+            </div>
+        </section>
+         <!-- <div class="hedden-2">
+            <h3>Fill the form</h3>
+            <div class="foto">
+                <div class="square"></div>
+                <div class="square-1"></div>
+                <div class="block_right_col"></div>
+                <div class="block_form">
+                     <form action="#" name="" method="post" enctype="multipart/form-data">
+                        <h4>Name:</h4>
+                        <input class="width_field" type="text" required name="" value="">
+
+                        <h4>Surname:</h4>
+                        <input class="width_field" type="text" required name="" value="">
+
+                        <h4>Email:</h4>
+                        <input class="width_field-2" type="email"required name="" value="">
+
+                        <h4>Other means of communication:</h4>
+                        <input class="width_field-2" type="text" name="" value="">
+
+                        <h4><input class="width_field-3" type="checkbox">Agree to receive SoundMetric notifications by Email.</h4>
+
+                        <button class="btn_bl_form" type="submit">Get Review</button>
+                     </form>
+                </div>  
+            </div>
+        </div> -->
+            <div class="img-5"></div>
+        <section>
+            <div class="field">
+                <div class="bg_color">
+                    <div class="col_column">
+                        <div class="text">
+                            <h4>As a result,</h4>
+                            <p>you get a special Web3 certificate to prove you were the owner of this file (track, recording, agreement, etc) at a certain point in time. This will be your legal evidence and proof of intellectual property accepted in court and other law enforcement institutions.</p>
+                        </div>
+                        <div class="text-1">
+                            <p>Here you may check our <a href="#"><b><a href="#">Pricing</a></b></a></p>
+                            <p>Did you like the service? Participate in an <a href="#"><b><a href="#">Affiliate program</a></b></a></p>
+                            <p>In association with <a href="#"><b><a href="">Silent Notary</a></b></a></p>
+                        </div>
+                        <div class="btn-3"><a href="">Protect</a></div>
+                        <div class="certificate">
+                            <div class="icon-2" style="background-image: url(img/Rectangle.png);"></div>
+                            <div class="wrapper">
+                                <div>Company Name</div>
+                                <div>
+                                    <span><a href="#"><img src="img/fi-sr-link.png" alt=""> www.somesite.com</a></span>
+                                    <span><a href="#"><img src="img/fi-sr-envelope.png" alt=""> some@mail.com</a></span>
+                                    <span><a href="#"><img src="img/fi-sr-phone-call.png" alt=""> +12 123 456 78 90</a></span>
+                                </div>
+                                <div>
+                                    Als der Daimler-Benz-Konzern sich diversifizierte, wurde das Kerngeschäft am 29. Juni 1989 in die Mercedes-Benz AG überführt, welche die Personenwagen- und Nutzfahrzeugentwicklung und -produktion übernahm.[3] Nach dem Ende des „Integrierten Technologiekonzerns“ wurden Personenwagen- und Nutzfahrzeuggeschäft am 1. April 1997 voneinander getrennt und in verschiedene Geschäftsbereiche aufgeteilt.
+                                </div>
+                            </div>
+                            <div class="gradient">
+                                <h3>certificate 1.jpg</h3>
+                                <h2>Certificate</h2>
+                            </div>
+                            <div class="col-1">
+                                <div class="QR"></div>
+                                <div class="wrapper-1">
+                                    <div>
+                                        <span class="one">In dashboard</span>
+                                        <span class="two">15.06.2022 21:46:48</span>
+                                    </div>
+                                    <div>
+                                        <span class="one">Size</span>
+                                        <span class="two">66.7 kb</span>
+                                    </div>
+                                    <div>
+                                        <span class="one">Hash</span>
+                                        <span class="two">e1c80905e33ab48edf536132a812ea0273aa35 66a68aa97b2d8c6a91ca97774b</span>
+                                    </div>
+                                    <div>
+                                        <span class="one">Cil transaction</span>
+                                        <span class="two">83db27dd6377776d451852d84e7bfdf713e032bd10 93398346b11c5c724b4e1b</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certificate_footer">
+                                <div class="icon-3"></div>
+                                <div><span>Data is protected from falsification by Silent Notary service technologies</span></div>
+                                <div>
+                                    <span> <a href=""><img src="img/link-symbol 1.png" alt="#"> silentnotary.com</a></span>
+                                    <span> <a href=""><img src="img/envelope (2) 1.png" alt=""> helpsn@silentnotary.com</a></span>
+                                    <span> <a href=""><img src="img/telegram-01 3.png" alt=""> helpsn@silentnotary.com</a></span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="hedden-3">
+            <form class="form-2" action="#" name="#" method="post" enctype="multipart/form-data">
+                <div class="wrapper_form">
+                    <input type="radio" name="1" value="" id="rd-1">
+                    <label for="rd-1">Simplified upload <span style="padding: 0 6px 0 20px;">/</span></label>
+                    
+                    <input type="radio" name="1" value="" id="rd-2"> 
+                    <label for="rd-2">Advanced</label>
+                        <div class="box">
+                            <label for="pv">Your file’s digital imprint:</label>
+                            <input type="text" name="" value="" id="pv">
+                        </div>
+                </div>
+                <div class="wrapper_form-1">
+                    <label for="pv-1" style="display: block;">Email:</label>
+                    <input type="text" name="" value="" id="pv-1">
+
+                    <label style="color:#b0aeae;" for="pv-2" style="display: block;">Your name /</label>
+                    <input type="text" name="" value="" id="pv-2">
+                </div>
+                <div class="wrapper_form-1">
+                    <label for="pv-3" style="display: block;">File name:</label>
+                    <input type="text" name="" value="" id="pv-3">
+
+                    <label style="color:#b0aeae;" for="pv-4" style="display: block;">File description:</label>
+                    <input type="text" name="" value="" id="pv-4">
+                </div>
+            </form>
+            <div class="description">
+                <div style="margin-left: -30px;">
+                    <p>Here you may check our <b>Pricing</b></p>
+                    <p>Did you like the service? Participate in an <b>Affiliate program</b></p>
+                    <p>In association with <b>Silent Notary</b></p>
+                </div>
+                <div style="margin-left: -30px;">
+                    <p>As a result, you get a special Web3 certificate to prove you were the owner of this file (track, recording, agreement, etc) at a certain point in time. This will be your legal evidence and proof of intellectual property accepted in court and other law enforcement institutions.</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="FAQ">
+              <div>
+                  <h1>FAQ</h1>
+              </div>
+              <div class="FAQ_container">
+                  <div>
+                      Type in your search parameters <span style="margin-left: 485px;">Search</span>
+                      <img src="img/Union.png" alt="">
+                  </div>
+                  <div><img src="img/+.png" alt=""></div>
+                  <div><img src="img/+.png" alt=""><span style="padding-left: 25px;">Q: Which files can I upload?</span></div>
+                  <div><img src="img/+.png" alt=""><span style="padding-left: 25px;">Q: What is the special digital certificate that I receive?</span></div>
+                  <div><img src="img/+.png" alt=""><span style="padding-left: 25px;">Q: What can be copyrighted?</span></div>
+                  <div><img src="img/+.png" alt=""><span style="padding-left: 25px;">Q: What are the fees?</span></div>
+                  <div><span style="padding-left: 10px;">Ask your question</span></div>
+                  <div class="btn-4">Submit</div>
+              </div>
+            </div>
+        </section>
+        <section class="end">
+           <div class="white_canvas"></div>
+           <div class="servise">
+                <div class="block_servise">
+                    <div>
+                        <span>Affiliate</span>
+                        <span>Terms of use</span>
+                        <span>GPDR policy</span>
+                    </div>
+                    <div class="icon-4"></div>
+                </div>
+                <div class="wrapper_btn">
+                    <span>If you have any questions, please don't hesitate to reach out to our support department via the following email: help@silentnotary.com</span>
+                    <div class="btn-5">Create with us :</div>
+                </div>
+           </div>
+           <div class="Studio"></div>
+        </section>
+    </div>
 </body>
 </html>
